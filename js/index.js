@@ -87,7 +87,6 @@ const selecSize = ({target}) => {
     sizeButtons.forEach((tool) => tool.classList.remove("active"))
     selectedTool.classList.add("active")
     brushSize = size
- 
 }
 
 tools.forEach((tool) => {
