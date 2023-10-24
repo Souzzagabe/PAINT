@@ -17,7 +17,6 @@ inputColor.addEventListener("change", ({ target }) => {
 })
 
 canvas.addEventListener("mousedown", ({ clientX, clientY }) => {
-    
     isPainting = true
     if ( activeTool == "brush"){
         draw(clientX, clientY)
